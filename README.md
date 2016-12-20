@@ -11,7 +11,7 @@
 	Start Upgrade Python Version
 	yum install -y zlib-devel zlib bzip2-devel xz-libs xz wget git tar gcc gcc-c++ gcc* openssl openssl-devel pcre-devel python-devel libevent automake autoconf libtool make git
 
-一.安装Python 2.7.10
+	一.安装Python 2.7.10
 	1.下载
 	wget http://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz
 	2.解压
