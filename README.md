@@ -1,5 +1,6 @@
 #Silver Fox 安装文档
-
+#群交流qq号：453400664
+#希望每一个使用者点赞与给出相应的意见
 #Author：GuiJiaoQi_/20161212     
 
 	Python版本升级
@@ -106,11 +107,4 @@
 	把后台的相关文件复制到silver_fox中
 
 	开启django
-	nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 &
-
-	相关的配置成功的登陆页面展示	 
-
-
-
-
-
+	nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 & 
