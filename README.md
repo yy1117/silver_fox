@@ -1,44 +1,7 @@
-﻿# silver_fox
+#Silver Fox 安装文档
+#Author：GuiJiaoQi_20161212     
 
- 
-
-
-Silver Fox 安装文档
-						          Author：GuiJiaoQi_20161212     
-
-
-		
-目录
-SILVER FOX 安装文档	1
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	Python版本升级
+	Python版本升级
  
 	配套软件版本
 	升级到python2.7
