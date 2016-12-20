@@ -40,17 +40,17 @@
 		tar -xzvf pip-1.5.4.tar.gz
 		 cd pip-1.5.4 
 		python setup.py install
-四、安装MySQL驱动
-	yum install mysql-devel python-setuptools python-devel libxml2 libxml2-dev  libpcre3 libpcre3-dev python-MySQLdb -y
-	tar xf  MySQL-python-1.2.3.tar.gz
-	cd MySQL-python-1.2.3
-	python setup.py build
-	python setup.py install
+	四、安装MySQL驱动
+		yum install mysql-devel python-setuptools python-devel libxml2 libxml2-dev  libpcre3 libpcre3-dev python-MySQLdb -y
+		tar xf  MySQL-python-1.2.3.tar.gz
+		cd MySQL-python-1.2.3
+		python setup.py build
+		python setup.py install
 
-	Start Django install
-	tar xf Django-1.8.17.tar.gz
-	cd Django-1.8.17
-	python setup.py install
+		Start Django install
+		tar xf Django-1.8.17.tar.gz
+		cd Django-1.8.17
+		python setup.py install
 
 	python
 	>>>import django
