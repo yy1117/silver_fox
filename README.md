@@ -1,14 +1,15 @@
 #Silver Fox 安装文档
+
 #Author：GuiJiaoQi_20161212     
 
 	Python版本升级
  
-	配套软件版本
-	升级到python2.7
-	Django version 1.8.17
-	MySQL version 5.6.27
-	Start Upgrade Python Version
-	yum install -y zlib-devel zlib bzip2-devel xz-libs xz wget git tar gcc gcc-c++ gcc* openssl openssl-devel pcre-devel python-devel libevent automake autoconf libtool make git
+	配套软件版本
+	升级到python2.7
+	Django version 1.8.17
+	MySQL version 5.6.27
+	Start Upgrade Python Version
+	yum install -y zlib-devel zlib bzip2-devel xz-libs xz wget git tar gcc gcc-c++ gcc* openssl openssl-devel pcre-devel python-devel libevent automake autoconf libtool make git
 
 	一.安装Python 2.7.10
 	1.下载
