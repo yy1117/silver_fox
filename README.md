@@ -59,7 +59,7 @@
 		python setup.py build
 		python setup.py install
 
-		Start Django install
+	五、Start Django install
 		tar xf Django-1.8.17.tar.gz
 		cd Django-1.8.17
 		python setup.py install
