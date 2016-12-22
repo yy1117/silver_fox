@@ -39,6 +39,12 @@
 		如果重新编译python2.7.10(yum install -y zlib-devel zlib)
 		chmod +x setuptools-0.6c11-py2.7.egg
 		sh setuptools-0.6c11-py2.7.egg
+				
+		如果报错尝试    
+		https://pypi.python.org/packages/source/s/setuptools/setuptools-0.6c11.tar.gz
+		tar zxvf setuptools-0.6c11.tar.gz
+		cd setuptools-0.6c11
+		python setup.py install
 		
 	三、安装pip
 		wget "https://pypi.python.org/packages/source/p/pip/pip-1.5.4.tar.gz#md5=834b2904f92d46aaa333267fb1c922bb" --no-check-certificate
