@@ -1734,14 +1734,13 @@ UNLOCK TABLES;
 -- Dumping data for table `script_auto_issued`
 --
 
-LOCK TABLES `script_auto_issued` WRITE;
 CREATE TABLE `script_auto_issued` (
   `id` int(11) DEFAULT NULL,
   `issued_button` varchar(300) DEFAULT NULL,
   `script_path` varchar(450) DEFAULT NULL,
   `functions` varchar(300) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-UNLOCK TABLES;
+
 /*!40000 ALTER TABLE `script_auto_issued` DISABLE KEYS */;
 INSERT INTO `script_auto_issued` VALUES (1,'backup_script_send','/etc/ansible/gen.py','备份脚本下发'),(2,'db_auto_instll','/etc/ansible/gen.py','db自动化安装下发'),(3,'slow_upload_start','/etc/ansible/slow_collect.sh','slowlog上传'),(4,'genral_log_upload_start','/etc/ansible/gen.py','generallog上传'),(5,'send_script','/etc/ansible/gen.py','脚本下发'),(6,'command_exec','','命令执行'),(7,'other','/etc/ansible/gen.py','命令执行'),(8,'slow_install_packet_send','/etc/ansible/percona-toolkit_2.2.16-1.tar.gz','percona包下发'),(12,'slow_exec_packet_insatll','/etc/ansible/pt_toolkit_install.sh','percona包安装脚本');
 /*!40000 ALTER TABLE `script_auto_issued` ENABLE KEYS */;
