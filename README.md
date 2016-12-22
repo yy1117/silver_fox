@@ -64,54 +64,54 @@
 		cd Django-1.8.17
 		python setup.py install
 
-	python
-	>>>import django
-	创建一个工程
-	cd ~
-	创建工程名为black_hand（黑手）
-	django-admin.py startproject black_hand
-	新增应用（银狐）
-	django-admin.py startapp silver_fox	
-	修改settings.py（cd ~/black_hand/black_hand）
-	修改时区
-	TIME_ZONE = 'Asia/Shanghai'
-	修改databases配置
-	DATABASES = {
-	    'default': {
-		'ENGINE': 'django.db.backends.mysql',
-		'NAME': 'django',
-		'USER': 'root',
-		'PASSWORD': 'root',
-		'HOST': '127.0.0.1',
-		'PORT': '3306',
-	    }
-	}
-	MIDDLEWARE_CLASSES 中注释掉如下参数
-	'django.middleware.csrf.CsrfViewMiddleware',
+		python
+		>>>import django
+		创建一个工程
+		cd ~
+		创建工程名为black_hand（黑手）
+		django-admin.py startproject black_hand
+		新增应用（银狐）
+		django-admin.py startapp silver_fox	
+		修改settings.py（cd ~/black_hand/black_hand）
+		修改时区
+		TIME_ZONE = 'Asia/Shanghai'
+		修改databases配置
+		DATABASES = {
+		    'default': {
+			'ENGINE': 'django.db.backends.mysql',
+			'NAME': 'django',
+			'USER': 'root',
+			'PASSWORD': 'root',
+			'HOST': '127.0.0.1',
+			'PORT': '3306',
+		    }
+		}
+		MIDDLEWARE_CLASSES 中注释掉如下参数
+		'django.middleware.csrf.CsrfViewMiddleware',
 
-	TEMPLATES = [
-   				 {
-       			 'BACKEND': 'django.template.backends.django.DjangoTemplates',
-      			 'DIRS': [os.path.join(BASE_DIR, 'templates')],
-        			'APP_DIRS': True,
-    		   	 'OPTIONS': {
-         		  	 'context_processors': [
-           			  'django.template.context_processors.debug',
-               			  'django.template.context_processors.request',
-               			  'django.contrib.auth.context_processors.auth',
-             			   'django.contrib.messages.context_processors.messages',
-          				  ],},},]
+		TEMPLATES = [
+					 {
+				 'BACKEND': 'django.template.backends.django.DjangoTemplates',
+				 'DIRS': [os.path.join(BASE_DIR, 'templates')],
+					'APP_DIRS': True,
+				 'OPTIONS': {
+					 'context_processors': [
+					  'django.template.context_processors.debug',
+					  'django.template.context_processors.request',
+					  'django.contrib.auth.context_processors.auth',
+					   'django.contrib.messages.context_processors.messages',
+						  ],},},]
 
-	Add databses import db_schema
-	mysql –uroot –proot –e 'create database django '
-	mysql –uroot –proot django –e 'source django_20161212_schema.sql '
+		Add databses import db_schema
+		mysql –uroot –proot –e 'create database django '
+		mysql –uroot –proot django –e 'source django_20161212_schema.sql '
 
-	python manage.py migrate
+		python manage.py migrate
 
-	同步db表信息到model
-	python ../manage.py inspectdb >model.py
+		同步db表信息到model
+		python ../manage.py inspectdb >model.py
 
-	把后台的相关文件复制到silver_fox中
+		把后台的相关文件复制到silver_fox中
 
-	开启django
-	nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 & 
+		开启django
+		nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 & 
