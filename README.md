@@ -106,7 +106,7 @@
 		mysql –uroot –proot –e 'create database django '
 		mysql –uroot –proot django –e 'source django_20161212_schema.sql '
 
-		python manage.py migrate
+		如果直接启动正常就无需执行python manage.py migrate
 
 		同步db表信息到model
 		python ../manage.py inspectdb >model.py
