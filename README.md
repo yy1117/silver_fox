@@ -111,7 +111,7 @@
 		同步db表信息到model
 		python ../manage.py inspectdb >model.py
 
-		把后台的相关文件复制到silver_fox中
+		把github中下载的black_hand直接替换到django中新增的black_hand目录即可
 
 		开启django
 		nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 & 
