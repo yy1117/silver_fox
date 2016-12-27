@@ -101,8 +101,19 @@
 					  'django.contrib.auth.context_processors.auth',
 					   'django.contrib.messages.context_processors.messages',
 						  ],},},]
+		
+		INSTALLED_APPS = (
+					    'django.contrib.admin',
+					    'django.contrib.auth',
+					    'django.contrib.contenttypes',
+					    'django.contrib.sessions',
+					    'django.contrib.messages',
+					    'django.contrib.staticfiles',
+					    #'sliver_fox',
+					    'silver_fox',
+					)
 
-		Add databses import db_schema
+		#Add databses import db_schema
 		mysql –uroot –proot –e 'create database django '
 		mysql –uroot –proot django –e 'source django_20161212_schema.sql '
 
@@ -115,3 +126,6 @@
 
 		开启django
 		nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 & 
+		
+		#ipaddress 为django主机IP		
+		访问WEB页面 http://ipaddress:8000/login.html		
