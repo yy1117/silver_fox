@@ -1730,9 +1730,7 @@ INSERT INTO `options` VALUES ('monitor','1','是否开启全局监控,此项如�
 UNLOCK TABLES;
 
 
---
--- Dumping data for table `script_auto_issued`
---
+DROP TABLE IF EXISTS `script_auto_issued`;
 
 CREATE TABLE `script_auto_issued` (
   `id` int(11) DEFAULT NULL,
