@@ -128,4 +128,5 @@
 		nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 & 
 		
 		#ipaddress 为django主机IP		
-		访问WEB页面 http://ipaddress:8000/login.html		
+		访问WEB页面 http://ipaddress:8000/login.html
+		登陆用户密码都是GuiJiaoQi/GuiJiaoQi
