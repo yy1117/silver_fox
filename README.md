@@ -125,7 +125,7 @@
 		把github中下载的black_hand直接替换到django中新增的black_hand目录即可
 
 		开启django
-		nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 "--insecure"  & 
+		nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 --insecure  & 
 		
 		#ipaddress 为django主机IP		
 		访问WEB页面 http://ipaddress:8000/login.html
