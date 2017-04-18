@@ -11,7 +11,7 @@
 	Django version 1.8.17
 	MySQL version 5.6.27
 	Start Upgrade Python Version
-	yum install -y zlib-devel zlib bzip2-devel xz-libs xz wget git tar gcc gcc-c++ gcc* openssl openssl-devel pcre-devel python-devel libevent automake autoconf libtool make git
+	yum install -y zlib-devel zlib bzip2-devel xz-libs xz wget git tar gcc gcc-c++ gcc* openssl openssl-devel pcre-devel python-devel libevent automake autoconf libtool make
 
 	一.安装Python 2.7.10
 	1.下载
