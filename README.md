@@ -7,7 +7,7 @@ QQ交流群号：453400664
 	#Author：GuiJiaoQi_/20161212     
 
 Python版本升级
- 
+=====
 	配套软件版本
 	升级到python2.7
 	Django version 1.8.17
