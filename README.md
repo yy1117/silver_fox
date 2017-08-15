@@ -15,7 +15,7 @@ Python版本升级
 	Start Upgrade Python Version
 	yum install -y zlib-devel zlib bzip2-devel xz-libs xz wget git tar gcc gcc-c++ gcc* openssl openssl-devel pcre-devel python-devel libevent automake autoconf libtool make
 
-   * 初始化数据库
+
    * 安装Python 2.7.10
 	1.下载
 	
