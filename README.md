@@ -6,7 +6,7 @@ QQ交流群号：453400664
 	#希望每一个使用者点赞与给出相应的意见
 	#Author：GuiJiaoQi_/20161212     
 
-	Python版本升级
+Python版本升级
  
 	配套软件版本
 	升级到python2.7
