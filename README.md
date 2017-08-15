@@ -15,7 +15,7 @@ Python版本升级
 	Start Upgrade Python Version
 	yum install -y zlib-devel zlib bzip2-devel xz-libs xz wget git tar gcc gcc-c++ gcc* openssl openssl-devel pcre-devel python-devel libevent automake autoconf libtool make
 
-	一.安装Python 2.7.10
+   *安装Python 2.7.10
 	1.下载
 	
 		wget http://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz
@@ -35,7 +35,7 @@ Python版本升级
 		source ~/.bash_profile
 		现在命令行输入 python 看到的版本是不是 2.7.10 了！！！(如果不行自行解决)
 		
-	二、安装setuptools
+  *安装setuptools
 		wget https://pypi.Python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg  --no-check-certificate 
 		如果报错zipimport.ZipImportError: can't decompress data; zlib not available错误
 		如果重新编译python2.7.10(yum install -y zlib-devel zlib)
@@ -48,7 +48,7 @@ Python版本升级
 		cd setuptools-0.6c11
 		python setup.py install
 		
-	三、安装pip
+  *安装pip
 		wget "https://pypi.python.org/packages/source/p/pip/pip-1.5.4.tar.gz#md5=834b2904f92d46aaa333267fb1c922bb" --no-check-certificate
 		tar -xzvf pip-1.5.4.tar.gz
 		 cd pip-1.5.4 
