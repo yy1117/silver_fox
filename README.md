@@ -17,8 +17,7 @@ Python版本升级
 
 安装Python 2.7.10
 =====
-	1.下载
-	
+		1.下载
 		wget http://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz
 		2.解压
 		tar xf Python-2.7.10.tar
@@ -49,21 +48,24 @@ Python版本升级
 		tar zxvf setuptools-0.6c11.tar.gz
 		cd setuptools-0.6c11
 		python setup.py install
-		
-  * 安装pip
+
+安装pip
+=====
 		wget "https://pypi.python.org/packages/source/p/pip/pip-1.5.4.tar.gz#md5=834b2904f92d46aaa333267fb1c922bb" --no-check-certificate
 		tar -xzvf pip-1.5.4.tar.gz
 		 cd pip-1.5.4 
 		python setup.py install
 		
-	四、安装MySQL驱动
+安装MySQL驱动
+=====
 		yum install mysql-devel python-setuptools python-devel libxml2 libxml2-dev  libpcre3 libpcre3-dev python-MySQLdb -y
 		tar xf  MySQL-python-1.2.3.tar.gz
 		cd MySQL-python-1.2.3
 		python setup.py build
 		python setup.py install
 
-	五、Start Django install
+Start Django install
+=====
 		tar xf Django-1.8.17.tar.gz
 		cd Django-1.8.17
 		python setup.py install
@@ -123,12 +125,14 @@ Python版本升级
 
 		如果直接启动正常就无需执行python manage.py migrate
 
-		同步db表信息到model
+同步db表信息到model
+=====
 		python ../manage.py inspectdb >model.py
 
 		把github中下载的black_hand直接替换到django中新增的black_hand目录即可
 
-		开启django
+开启django
+=====
 		nohup /usr/local/python2.7/bin/python2.7 manage.py runserver 0.0.0.0:8000 --insecure  & 
 		
 		#ipaddress 为django主机IP		
