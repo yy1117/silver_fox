@@ -1,7 +1,7 @@
 About
 =====
-Silver Fox 安装文档	
-QQ交流群号：453400664
+* Silver Fox 安装文档	
+* QQ交流群号：453400664
 
 	#希望每一个使用者点赞与给出相应的意见
 	#Author：GuiJiaoQi_/20161212     
